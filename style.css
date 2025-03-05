@@ -214,3 +214,58 @@ body{
     margin-bottom: 16px;
 }
 
+.facilidades{
+    margin-top: 50px;
+    background-color: #000;
+    padding-top: 40px;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.titulo-facilidade{
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.icones{
+    width: 976px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conjunto-icone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 304px;
+}
+
+.informacoes-icone{
+    margin-left: 24px;
+}
+
+.titulo-icone{
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: #daff01;
+    line-height: 23px;
+    font-size: 16px;
+}
+
+.texto-icone{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.promocoes{
+    width: 729px;
+    border: 2px solid;
+    margin: 65px auto;
+    padding: 40px 16px;
+}
