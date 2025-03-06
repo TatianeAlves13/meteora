@@ -277,7 +277,32 @@ body{
     margin-bottom: 24px;
 }
 
+.formulario-promocoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.campo-promocoes{
+    font-size: 16px;
+    line-height: 23px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    border: 1px solid;
+    border-radius: 0;
+    width: 456px;
+}
 .botao-promocoes{
     border: 1px solid #9353ff;
-
+    border-radius: 0;
+    background-color: #9353ff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 84px;
+    text-align: center;
 }
