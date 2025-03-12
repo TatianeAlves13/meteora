@@ -155,6 +155,11 @@ body{
     text-decoration: none;
 }
 
+.item-categoria:hover{
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+}
+
 .produto{
     width: 1110px;
     margin-left: auto;
@@ -174,6 +179,15 @@ body{
     width: 350px;
     border: 1px solid rgba(0,0,0, 13%);
     margin-bottom: 30px;
+}
+
+.foto_produto{
+    filter: grayscale(1);
+}
+
+.foto_produto:hover{
+    filter: grayscale(0);
+    transition: all 0.4s ease;
 }
 
 .titulo-produto{
